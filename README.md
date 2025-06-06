@@ -5,8 +5,10 @@
 ![image](https://github.com/user-attachments/assets/4f1adacd-8744-4eab-929f-496e8b848ffd)
 
 作业三：随机山脉
+扩展部分：做了三色渐变，让山脉看起来更有流云感
 ![image](https://github.com/user-attachments/assets/dc4869f7-07ac-44dc-95bc-a63a5a284a9c)
 
 作业四：盖房子
+扩展部分：布了点小景，加了草坪，花，树
 ![image](https://github.com/user-attachments/assets/ccbe9429-700b-4a9c-8bd4-bfda36274426)
 
