@@ -20,8 +20,10 @@ function init() {
   const width = window.innerWidth;
   const height = window.innerHeight;
   camera = new THREE.PerspectiveCamera(60, width / height, 1, 10000);
-  camera.position.set(450, 150, 100);
-  camera.lookAt(0, 0, 0);
+ camera.position.set(150, 100, 100);   // 更靠近地球
+camera.lookAt(0, 50, 50);             // 对准地球中心
+
+
 
   // ===== 渲染器 =====
   renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -30,9 +32,6 @@ function init() {
   document.body.appendChild(renderer.domElement);
 
   scene.add(sphere);
-
-
-  mesh = mountain; // 供动画函数使用
 
   // ===== 灯光 =====
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
